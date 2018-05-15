@@ -1,13 +1,27 @@
-#get-joke {
-  color: red;
-  font-size: 25px;
-  margin-left: 45%;
-  margin-top: 20%;
-  padding: 5px;
-  cursor: pointer; }
+* {
+  background-color: #008080; }
 
-#joke {
-  font-size: 35px;
-  margin: 5% 20%; }
+main header h1 {
+  font-size: 40px;
+  color: #FFFFFF;
+  margin-left: 40%; }
+main .box {
+  color: #FFFFFF;
+  margin-left: 20%;
+  margin-top: 5%;
+  padding: 2%;
+  font-size: 40px;
+  text-transform: uppercase; }
+main div button {
+  color: #FFFFFF;
+  font-size: 30px;
+  margin-left: 50%;
+  margin-top: 5%;
+  padding: 1%;
+  background-color: #000080; }
+main div a {
+  color: #FFFFFF;
+  font-size: 30px;
+  padding: 1%; }
 
 /*# sourceMappingURL=style.css.map */
