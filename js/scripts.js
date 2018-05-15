@@ -30,9 +30,7 @@ $(function() {
     }
   }
   getQuote();
-
-  $('.tigger').click(function() {
-    getQuote();
-  });
-
+   $('.trigger').click(function () {
+       getQuote();
+   });
 });
