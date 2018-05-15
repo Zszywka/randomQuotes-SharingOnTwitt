@@ -2,14 +2,6 @@ $(function() {
   var prefix = "https://cors-anywhere.herokuapp.com/";
   var tweetLink = "https://twitter.com/intent/tweet?text=";
   var quoteUrl = "https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1";
-  //download the quote
-  // version with AJAX:
-  // $.ajax({
-  //     dataType: "json",
-  //     url: quoteUrl,
-  //     data: null,
-  //     success: createTweet
-  // });
 
   function getQuote() {
     $.getJSON(prefix + quoteUrl, createTweet);
@@ -37,7 +29,6 @@ $(function() {
       $('.tweet').attr('href', tweet);
     }
   }
-
   getQuote();
 
   $('.tigger').click(function() {
@@ -45,5 +36,3 @@ $(function() {
   });
 
 });
-
-$('h2').text(getQuote());
